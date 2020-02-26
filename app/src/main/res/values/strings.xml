@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Pra Assessment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="persegi_panjang">Persegi Panjang</string>
+    <string name="segitiga">Segitiga</string>
+    <string name="input_panjang">Masukkan Panjang</string>
+    <string name="input_lebar">Masukkan Lebar</string>
+    <string name="tv_luas">Luas =</string>
+    <string name="keliling">Keliling =</string>
+    <string name="share">Share</string>
+    <string name="reset">Reset</string>
+    <string name="hitung">Hitung</string>
+    <string name="nim">6706180060</string>
+    <string name="nama">Bagus Izzan</string>
+    <string name="kelas">D3IF-42-04</string>
+    <string name="about">About</string>
+    <string name="share_data">Luas = %1$d, Keliling = %2$d</string>
+</resources>

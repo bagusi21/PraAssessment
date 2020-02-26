@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/navigation" app:startDestination="@id/startFragment">
+
+    <fragment android:id="@+id/startFragment" android:name="org.d3ifcool0060.myapplication.StartFragment"
+              android:label="Bangun Datar"
+              tools:layout="@layout/fragment_start">
+
+        <action android:id="@+id/action_startFragment_to_persegiPanjangFragment"
+                app:destination="@id/persegiPanjangFragment"/>
+
+        <action android:id="@+id/action_startFragment_to_segitigaSikuFragment"
+                app:destination="@id/segitigaSikuFragment"/>
+    </fragment>
+    <fragment android:id="@+id/segitigaSikuFragment" android:name="org.d3ifcool0060.myapplication.SegitigaSikuFragment"
+              android:label="@string/segitiga"
+              tools:layout="@layout/fragment_segitiga"/>
+
+    <fragment android:id="@+id/persegiPanjangFragment"
+              android:name="org.d3ifcool0060.myapplication.PersegiPanjangFragment"
+              android:label="@string/persegi_panjang"
+              tools:layout="@layout/fragment_persegi_panjang"/>
+    <fragment android:id="@+id/aboutFragment2" android:name="org.d3ifcool0060.myapplication.AboutFragment"
+              android:label="AboutFragment"
+    tools:layout="@layout/fragment_about"/>
+</navigation>
